@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-inner img.fixed-size {
+    max-width: 800px; /* Maximum width */
+    max-height: 400px; /* Maximum height */
+    width: 100%; /* Allows responsive scaling within parent container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures image fills the container proportionally */
+    margin: 0 auto; /* Centers image horizontally when smaller than max size */
+}
+
+.carousel-caption p {
+    color: #4a4a4a; /* Dark gray color */
+}
+
+.carousel-caption h5 {
+    color: #4a4a4a; /* Dark gray color */
+}
+
+.review-card img {
+    width: 400px;               /* Fixed width */
+    height: 200px;              /* Fixed height */
+    object-fit: contain;        /* Ensures the entire image fits within the dimensions */
+    display: block;             /* Ensures images do not have inline spacing issues */
+    margin: 0 auto;             /* Centers the images horizontally within the card */
+    border: 3px solid #ccc;     /* Light gray border */
+    border-radius: 8px;         /* Rounded corners */
+    padding: 5px;               /* Space between image and border */
+    transition: all 0.3s ease;  /* Smooth transition for hover effects */
+}
+
+.review-card img:hover {
+    border-color: #4CAF50;      /* Green border on hover */
+    transform: scale(1.05);      /* Slight zoom effect on hover */
+}
+.review-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+}
+
+.review-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.review-card h4 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.review-card p {
+    font-size: 0.875rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.review-card a {
+    color: #ff7849;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.review-card a:hover {
+    text-decoration: underline;
+}
+
+.subscribe {
+    text-align: center;
+    background: linear-gradient(to right, #fad089, #fffacd);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.subscribe h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.subscribe p {
+    font-size: 0.875rem;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.subscribe button {
+    background: #ff7849;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background: #e66a2c;
+}
+
+.footer {
+    text-align: center;
+    padding: 16px;
+    background: #333;
+    color: white;
+    font-size: 0.875rem;
+}
+
+.footer p {
+    margin: 0;
+    color: #aaa;
+}
